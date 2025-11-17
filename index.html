@@ -2,23 +2,37 @@
 <html lang="en">
 <head>
     <title>Juan Pabon Vargas-Website</title>
-    
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <!-- Google Font -->
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Theme CSS -->  
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <link id="theme-style" rel="stylesheet" href="assets/css/orbit-6.css">
-</head> 
+
+    <style>
+        body {
+            overflow-y: scroll;
+        }
+        .blog-section {
+            margin-top: 60px;
+            padding: 40px;
+            background: #f7f7f7;
+            border-radius: 10px;
+        }
+        .blog-post {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .blog-post h3 {
+            font-weight: 600;
+        }
+    </style>
+</head>
 
 <body>
     <div class="wrapper mt-lg-5">
@@ -27,168 +41,116 @@
                 <img class="profile" src="assets/images/profilePic.png" alt="" />
                 <h1 class="name">Juan Pabon Vargas</h1>
                 <h3 class="tagline">Sistems Engineer, future Game Developer</h3>
-            </div><!--//profile-container-->  
-			<div class="contact-container container-block">
-			  <ul class="list-unstyled contact-list">
-			    <li class="email">
-			      <i class="fa-solid fa-envelope"></i>
-			      <a href="mailto:wonkyjaveriana2037@gmail.com">wonkyjaveriana2037@gmail.com</a>
-			    </li>
-			    <li class="phone">
-			      <i class="fa-solid fa-phone"></i>
-			      <a href="tel:3142363350">314 236 3350</a>
-			    </li>
-			    <li class="linkedin">
-			      <i class="fa-brands fa-linkedin-in"></i>
-			      <a href="https://www.linkedin.com/in/juan-pabon-vargas-15015033a/" target="_blank">
-			        LinkedIn Profile
-			      </a>
-			    </li>
-			    <li class="github">
-			      <i class="fa-brands fa-github"></i>
-			      <a href="https://github.com/JohnWilliams2050" target="_blank">
-			        github.com/JohnWilliams2050
-			      </a>
-			    </li>
-			  </ul>
-			</div>
+            </div>
+
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto:wonkyjaveriana2037@gmail.com">wonkyjaveriana2037@gmail.com</a></li>
+                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:3142363350">314 236 3350</a></li>
+                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/juan-pabon-vargas-15015033a/" target="_blank">LinkedIn Profile</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/JohnWilliams2050" target="_blank">github.com/JohnWilliams2050</a></li>
+                </ul>
+            </div>
+
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
                     <h4 class="degree">Sistems Engineer student</h4>
                     <h5 class="meta">Pontificial Xaverian University</h5>
-	                    <div class="time">2023-2027</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            
+                    <div class="time">2023-2027</div>
+                </div>
+            </div>
+
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
                     <li>English <span class="lang-desc">(Native)</span></li>
                     <li>Spanish <span class="lang-desc">(Native)</span></li>
                 </ul>
-            </div><!--//interests-->
-            
+            </div>
+
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
                     <li>Developing Stories</li>
                     <li>Watching Movies</li>
                     <li>Cooking</li>
-					<li>Playing RPGs</li>
-					<li>Walking</li>
+                    <li>Playing RPGs</li>
+                    <li>Walking</li>
                 </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
-        
+            </div>
+        </div>
+
         <div class="main-wrapper">
-            
             <section class="section summary-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Career Profile</h2>
                 <div class="summary">
                     <p>Currently pursuing a Bachelor's degree in Sistems Engineering and building up my Game Development portfolio.</p>
-                </div><!--//summary-->
-            </section><!--//section-->
-            
+                </div>
+            </section>
+
             <section class="section experiences-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Experiences</h2>
-                
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Co-developer of a Slack Bot</h3>
                             <div class="time">2021-2022</div>
-                        </div><!--//upper-row-->
+                        </div>
                         <div class="company">Washington State University, Washington State, USA</div>
-                    </div><!--//meta-->
+                    </div>
                     <div class="details">
-                        <p>Alongside one other person, we took this job to develop a Slack bot that would organize coffee chats between the alumni of the Washington State University for networking purposes. This bot would schedule weekly coffee chats between different alumni, send notifications of the upcoming meetings, create rooms for the alumni to go in, and then send a survey to each user to get feedback on the experience and if they would like to get matched with the other alumni again.</p>
-                    	<p>My role in this job involved constant communication with my coworker, proper distribution of workload, and progress checks with the client to see if the product meets their requirements.</p>
-					</div><!--//details-->
-                </div><!--//item-->
-            </section><!--//section-->
-            
+                        <p>Alongside one other person, we took this job to develop a Slack bot...</p>
+                        <p>My role involved constant communication, workload distribution, and client feedback.</p>
+                    </div>
+                </div>
+            </section>
+
             <section class="section projects-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-archive"></i></span>Projects</h2>
-                <div class="intro">
-                    <p>List of all the personal Projects that I am currently working on/ have completed.</p>
-                </div><!--//intro-->
+                <div class="intro"><p>List of all personal projects.</p></div>
                 <div class="item">
-                    <span class="project-title"><a href="https://github.com/JohnWilliams2050/SkateTrack" target="_blank">SkateTrack</a></span> - <span class="project-tagline">Currently working on a Social Media/Fitness tracker app for Rollerskaters. </span>
-                </div><!--//item-->
-            </section><!--//section-->
-            
+                    <span class="project-title"><a href="https://github.com/JohnWilliams2050/SkateTrack" target="_blank">SkateTrack</a></span>
+                    - <span class="project-tagline">A Social Media/Fitness tracker for Rollerskaters.</span>
+                </div>
+            </section>
+
             <section class="skills-section section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-rocket"></i></span>Skills &amp; Proficiency</h2>
-                <div class="skillset">        
-                    <div class="item">
-                        <h3 class="level-title">Python</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                               
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Javascript</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                              
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">React</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Java</h3>
-                        <div class="progress level-bar">
-							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">C++</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                  
-                    </div><!--//item-->
-					<div class="item">
-                        <h3 class="level-title">C</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                  
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Unity</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                 
-                    </div><!--//item-->
-					<div class="item">
-                        <h3 class="level-title">Unreal Engine 5</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                 
-                    </div><!--//item-->
-                    
-                </div>  
-            </section><!--//skills-section-->
-            
-        </div><!--//main-body-->
+                <div class="skillset">
+                    <div class="item"><h3 class="level-title">Python</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:50%"></div></div></div>
+                    <div class="item"><h3 class="level-title">Javascript</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:30%"></div></div></div>
+                    <div class="item"><h3 class="level-title">React</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:30%"></div></div></div>
+                    <div class="item"><h3 class="level-title">Java</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:90%"></div></div></div>
+                    <div class="item"><h3 class="level-title">C++</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:90%"></div></div></div>
+                    <div class="item"><h3 class="level-title">C</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:70%"></div></div></div>
+                    <div class="item"><h3 class="level-title">Unity</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:60%"></div></div></div>
+                    <div class="item"><h3 class="level-title">Unreal Engine 5</h3><div class="progress level-bar"><div class="progress-bar theme-progress-bar" style="width:30%"></div></div></div>
+                </div>
+            </section>
+
+            <!-- BLOG SECTION ADDED -->
+            <section class="blog-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-blog"></i></span>Blog</h2>
+
+                <div class="blog-post">
+                    <h3>Why Indie Games Are Taking Over the Industry</h3>
+                    <p>Indie games have exploded in popularity thanks to creative freedom, unique mechanics, and emotional storytelling. With engines like Unity and Unreal becoming easier to learn, more solo developers are releasing groundbreaking titles that rival AAA studios.</p>
+                </div>
+
+                <div class="blog-post">
+                    <h3>The Evolution of RPG Combat Systems</h3>
+                    <p>From turn-based classics to real-time action hybrids, RPGs have continuously reinvented combat. Modern games blend strategy with fast-paced gameplay, offering players both depth and intensity while keeping the spirit of classic role-playing alive.</p>
+                </div>
+            </section>
+        </div>
     </div>
- 
+
     <footer class="footer">
         <div class="text-center">
-            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
-        
-</body>
-</html> 
+            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+        </div>
+    </footer>
 
+</body>
+</html>
